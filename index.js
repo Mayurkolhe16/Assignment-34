@@ -11,7 +11,7 @@ for(const num of marks)
 }
 console.log(`Largest number is ${largest}`);*/
 
-const numbers=[2,7,10,13,14,17]
+/*const numbers=[2,7,10,13,14,17]
 
 let sum=0;
 for(let i=0; i<numbers.length; i++)
@@ -21,4 +21,18 @@ for(let i=0; i<numbers.length; i++)
         sum=sum+numbers[i]
     }
 }
-console.log(`Sum: ${sum}`)
+console.log(`Sum: ${sum}`)*/
+
+const students=[
+    "Mayur",
+    "Amol",
+    "Shubham",
+    "Rohit",
+    "Omkar"
+]
+
+for(let i=0; i<students.length; i++)
+for(const stud of students)
+{
+    console.log(`Hello ${stud}`);
+}
